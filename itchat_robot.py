@@ -6,7 +6,7 @@ import itchat
 from itchat.content import *
 # 调用图灵机器人的api，采用爬虫的原理，根据聊天消息返回回复内容
 def tuling(info):
-  appkey = "f461f3c34bc0401fbcfddded709b8b24"
+  appkey = "********84bc0401fbcfddded709b8b24"
   url = "http://www.tuling123.com/openapi/api?key=%s&info=%s"%(appkey,info)
   req = requests.get(url)
   content = req.text
